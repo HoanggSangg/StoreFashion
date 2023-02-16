@@ -1,8 +1,6 @@
 ﻿create database Tshop;
 use Tshop;
 
-drop database Tshop;
-
 CREATE TABLE Accounts(
 	Username nvarchar(50) not null primary key,
     Password nvarchar(50) not null,
